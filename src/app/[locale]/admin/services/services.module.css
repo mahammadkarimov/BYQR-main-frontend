@@ -1,0 +1,21 @@
+.servicesContainer::-webkit-scrollbar {
+    width: 4px;
+}
+
+.servicesContainer::-webkit-scrollbar-thumb {
+    background-color: #FD451C;
+    border-radius: 10px;
+}
+
+.servicesContainer::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.servicesContainer {
+    max-height: 620px;
+    overflow-y: auto;
+}
+
+.servicesBodyContainer {
+    text-align: center;
+}

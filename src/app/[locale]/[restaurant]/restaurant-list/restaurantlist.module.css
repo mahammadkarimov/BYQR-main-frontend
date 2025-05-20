@@ -1,0 +1,85 @@
+.backBtn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--Dark, #191A26);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    width: 40px;
+    border: 1px solid var(--Light-grey, #E6E7EB);
+    border-radius: 28px;
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    gap: 10px;
+}
+
+.restName {
+    width: 100%;
+    height: 52px;
+    padding: 12px 8px;
+    background: rgba(25, 26, 38, 0.60);
+}
+
+.restName :nth-child(1) {
+    text-transform: capitalize;
+}
+
+.hotelPhoto {
+    width: 295px;
+    object-fit: contain !important;
+    min-height: 70vh !important;
+}
+
+.backBtnContainer {
+    padding: 16px;
+}
+
+.restaurantContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 24px 0px 0px 12px;
+}
+
+.restaurantContainer img {
+    height: 119px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.restName {
+    position: absolute;
+    bottom: 10px;
+}
+
+.restText {
+    color: var(--White, #FFF);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    padding-left: 14px;
+}
+
+.headContainer {
+    display: flex;
+    align-items: center;
+}
+
+.restHead {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.restHead h2 {
+    color: var(--Dark, #191A26);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

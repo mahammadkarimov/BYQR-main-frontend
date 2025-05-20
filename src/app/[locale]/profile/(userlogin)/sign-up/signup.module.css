@@ -1,0 +1,88 @@
+.header {
+    margin-bottom: 24px;
+}
+
+.header :nth-child(1) {
+    color: var(--Dark, #191A26);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    line-height: 38px;
+}
+
+.header :nth-child(2) {
+    color: var(--Grey, #808D9E);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.formContainer {
+    margin-bottom: 16px;
+}
+
+.forgotPass {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    color: var(--Primary, #FD451C);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background: #E2E8F0;
+}
+
+.orSign {
+    padding: 0 16px;
+    width: 400px;
+    color: var(--Grey, #808D9E);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.haveAccount {
+    display: flex;
+    justify-content: center;
+}
+
+.haveAccount :nth-child(1) {
+    margin-right: 6px;
+    color: var(--Dark, #191A26);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.haveAccount :nth-child(2) {
+    color: var(--Primary, #FD451C);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.terms {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 64%;
+    color: var(--Dark, #242B42);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.redTerm {
+    color: var(--Primary, #FD451C);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+

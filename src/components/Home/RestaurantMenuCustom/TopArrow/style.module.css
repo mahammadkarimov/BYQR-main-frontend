@@ -1,0 +1,10 @@
+.topArrow {
+    border-radius: 60px;
+    background: var(--Primary, #FD451C);
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    position: fixed;
+    bottom: 84px;
+    right: 24px;
+}

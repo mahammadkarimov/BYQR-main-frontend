@@ -1,0 +1,66 @@
+.makePaymentText {
+  color: var(--White, #191a26);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 12px;
+  position: relative;
+  width: 90%;
+}
+
+.makePaymentContainer {
+  background-color: #ebf8e6;
+  border-radius: 12px;
+  width: 160px;
+  height: 40px;
+  padding: 0 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.payByCash {
+  color: var(--Green-100, #63b92e);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 110%;
+}
+
+.serviceCard {
+  border-radius: 12px;
+  background: #f4f2f2;
+  height: 80px;
+  display: flex;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 11;
+  overflow: hidden;
+}
+
+.serviceCard img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 445px) {
+  .makePaymentText {
+    color: var(--White, #191a26);
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 12px;
+    position: relative;
+    width: 90%;
+  }
+
+  .serviceCard img {
+    object-fit: cover;
+    height: 85%;
+    width: 85%;
+  }
+}

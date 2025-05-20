@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 140px;
+    gap: 10px;
+}
+
+.container span {
+    border-radius: 8px;
+    border: 1px solid var(--Primary, #FD451C);
+    background: var(--Content-White, #FFF);
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--Primary, #FD451C);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    cursor: pointer;
+}
+
+.container button {
+    border-radius: 8px;
+    border: 1px solid var(--Primary, #FD451C);
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--Primary, #FD451C);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+.active {
+    border-radius: 8px;
+    background: var(--Primary, #FD451C) !important;
+    color: var(--Content-White, #FFF) !important;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}

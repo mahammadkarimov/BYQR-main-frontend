@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    padding: 54px 0;
+}
+
+.container div {
+    border-radius: 100px;
+    border: 1px solid #FD451C;
+    background: var(--Content-White, #FFF);
+    display: flex;
+    width: 47px;
+    height: 47px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FD451C;
+    text-align: center;
+    cursor: default;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+.container span {
+    width: 80px;
+    height: 1px;
+    background: #FD451C;
+}
+
+.active {
+    background: #FD451C !important;
+    color: #fff !important;
+}

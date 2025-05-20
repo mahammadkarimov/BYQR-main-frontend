@@ -1,0 +1,84 @@
+.modalBg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+.modalContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    background-color: #FEFEFE;
+    display: flex;
+    width: 493px;
+    height: 318px;
+    padding: 22px 24px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.modalContainer> :nth-child(1) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.modalContainer> :nth-child(1) span {
+    color: #4F4F4F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+.modalContainer> :nth-child(1)>div {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.modalContainer> :nth-child(1)>div> :nth-child(1) {
+    border-radius: 8px;
+    background: var(--Primary, #FD451C);
+    width: 114px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+}
+
+.modalContainer> :nth-child(1)>div> :nth-child(2) {
+    border-radius: 8px;
+    border: 0.3px solid #BABABA;
+    background: #FFF;
+    width: 114px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #706D6D;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+}

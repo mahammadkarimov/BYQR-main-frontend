@@ -1,0 +1,35 @@
+.head {
+    background: #FFF;
+    height: 167px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+.head :nth-child(1) {
+    color: var(--Content-Black, var(--Schemes-Scrim, #000));
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.head :nth-child(2) {
+    border-radius: 4px;
+    background: var(--Primary, #FD451C);
+    display: flex;
+    width: 170px;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    color: var(--Content-White, #FFF);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    cursor: pointer;
+}

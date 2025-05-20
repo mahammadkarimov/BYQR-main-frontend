@@ -1,0 +1,10 @@
+.socialLoginBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 30px;
+    border: var(--0, 1px) solid var(--Soft-Grey, #EDF1F8);
+    background: var(--color-others-white, #FFF);
+}

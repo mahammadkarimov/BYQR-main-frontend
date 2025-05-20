@@ -1,0 +1,196 @@
+.blockScroll {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.categories-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.categories-head :nth-child(1) {
+  color: var(--Dark, #191a26);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.categories-head :nth-child(2) {
+  color: var(--Primary, #fd451c);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.overlay {
+  position: fixed;
+  z-index: 998;
+  transition: 0.5s all ease;
+  opacity: 0.4;
+}
+
+/* Modal CSS Start */
+.modalSheetContainer {
+  /* width: 100%; */
+  /* border: none !important; */
+  /* height: auto !important; */
+  /* height: 10vh; */
+  border-radius: 20px 20px 0px 0px !important;
+  /* position: relative; */
+}
+
+.modalImgContainer {
+  position: relative;
+  width: 100%;
+  height: 65svh;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.productImg {
+  border-radius: 20px 20px 0px 0px !important;
+  width: 100%;
+  height: 75svh;
+  object-fit: cover !important;
+}
+
+.sheetScroller {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.closeBtn {
+  position: absolute;
+  right: 18px;
+  top: 21px;
+  width: 32px;
+  height: 32px;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  z-index: 999;
+}
+
+.closeBtn img {
+  width: 16px;
+  height: 16px;
+}
+
+.modalDescContainer {
+  height: 20svh;
+  overflow-y: auto;
+  margin: 20px 12px 20px 12px;
+}
+
+.bigTitle h3 {
+  color: var(--Dark, #191a26);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.modalAdditionContainer {
+  display: flex;
+  gap: 16px;
+}
+
+.modalDetails {
+  margin-top: 12px;
+}
+
+.modalDetails h5 {
+  color: var(--Dark, #191a26);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  padding-bottom: 10px;
+}
+
+.modalDetails p {
+  color: var(--Grey, #808d9e);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+@media (max-width: 768px) {
+  .bigTitle h3 {
+    font-size: 28px;
+  }
+
+  .modalDetails h5 {
+    font-size: 20px;
+  }
+
+  .modalDetails p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 640px) {
+  .bigTitle h3 {
+    font-size: 26px;
+  }
+
+  .modalDetails h5 {
+    font-size: 18px;
+  }
+
+  .modalDetails p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 493px) {
+  .modalSheetContainer {
+    height: auto !important;
+  }
+
+  .bigTitle h3 {
+    font-size: 24px;
+  }
+
+  .modalDetails h5 {
+    font-size: 16px;
+  }
+
+  .modalDetails p {
+    font-size: 14px;
+  }
+}
+
+@media (max-height: 600px) {
+  .modalImgContainer {
+    position: relative;
+    width: 100%;
+    height: 62svh;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .productImg {
+    border-radius: 20px 20px 0px 0px !important;
+    width: 100%;
+    height: 62svh;
+    object-fit: cover !important;
+  }
+
+  .bigTitle h3 {
+    color: var(--Dark, #191a26);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+  }
+
+  .modalDescContainer {
+    margin: 20px 12px 20px 12px;
+    height: 20svh;
+  }
+}

@@ -1,0 +1,27 @@
+.customBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 14px 28px;
+  border-top: 0.5px solid #e6e7eb;
+  border-bottom: 0.5px solid #e6e7eb;
+}
+
+.customBtn span {
+  color: var(--Base-Light-60, #6a6969);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.customBtn2 span {
+  color: #1b4b48;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}

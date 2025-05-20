@@ -1,0 +1,38 @@
+.buttonPlace {
+  color: var(--White, #fff);
+  text-align: center;
+  /* Big Button */
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 128.571% */
+}
+.buttonPlace:disabled {
+  background: var(--Grey-1, #e4e6ed) !important;
+  color: var(--Grey-2, #888f9e) !important;
+}
+.buttonPlace {
+  width: 60%;
+}
+
+@media (max-width: 768px) {
+  .buttonPlace {
+    width: 70%;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 640px) {
+  .buttonPlace {
+    width: 80%;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 493px) {
+  .buttonPlace {
+    width: 90%;
+    font-size: 14px;
+  }
+}

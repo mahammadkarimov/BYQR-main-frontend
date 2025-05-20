@@ -1,0 +1,48 @@
+.callServiceText {
+  color: var(--White, #191a26);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  position: relative;
+  width: 110%;
+}
+
+.serviceCard {
+  z-index: 11;
+  border-radius: 12px;
+  background: #f4f2f299;
+  gap: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.serviceCard img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+@media screen and (max-width: 445px) {
+  .callServiceText {
+    color: var(--White, #191a26);
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    position: relative;
+    width: 110%;
+  }
+
+  .serviceCard img {
+    object-fit: cover;
+    height: 85%;
+    width: 85%;
+  }
+}

@@ -1,0 +1,17 @@
+.searchArea input {
+    background-image: url('../../../../../assets/icons/Admin//mainAdmin/searchIcon.svg');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 100px;
+    border: none;
+    color: var(--Content-Grey, #757575);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    height: 47px;
+}

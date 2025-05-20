@@ -1,0 +1,62 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-slide div {
+  outline: none;
+}
+
+@font-face {
+  font-family: 'SF Pro';
+  src: url('../../../public/font/SF-Pro-Display-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'SF Pro', sans-serif !important;
+}
+
+* {
+  text-decoration: none !important;
+  font-family: 'SF Pro', sans-serif !important;
+
+}
+
+:root {
+  --big-title: rgba(40, 40, 40, 1);
+  --profileName: #191a26;
+  --promos-time: #808d9e;
+  --bg-category-icon: #ffeee8;
+  --color-edit-profile: #fd451c;
+  --dark: #242b42;
+}
+
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ff1212;
+  border-radius: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+tbody::-webkit-scrollbar {
+  width: 4px;
+}
+
+tbody::-webkit-scrollbar-thumb {
+  background-color: #ff1212;
+  border-radius: 6px;
+}
+
+tbody::-webkit-scrollbar-track {
+  background-color: transparent;
+}

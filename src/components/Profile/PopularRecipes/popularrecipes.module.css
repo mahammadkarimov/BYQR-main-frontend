@@ -1,0 +1,21 @@
+.popularRecipes {
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.popularRecipes :nth-child(1) {
+    color: var(--Dark, #191A26);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.popularRecipes :nth-child(2) {
+    color: var(--Primary, #FD451C);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}

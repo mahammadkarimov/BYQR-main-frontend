@@ -1,0 +1,77 @@
+.header {
+    color: var(--Dark, #191A26);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 4px;
+}
+
+.interestContainer {
+    display: flex;
+    margin: 0 24px;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.interestCard {
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    padding: 4px 12px 4px 4px;
+    background: var(--Orange-10, #FFEEE8);
+}
+
+.activeInterestCard {
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    padding: 4px 12px 4px 4px;
+    background: var(--Orange-10, #FFEEE8);
+    border: 1px solid var(--Primary, #FD451C);
+}
+
+.activeInterestCard {
+    color: var(--Dark, #191A26);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.activeInterestCard :nth-child(1) {
+    margin-right: 12px;
+    border-radius: 12px;
+    width: 48px;
+    height: 48px;
+}
+
+.activeInterestCard :nth-child(2) {
+    color: var(--Dark, #191A26);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.interestCard :nth-child(1) {
+    margin-right: 12px;
+    border-radius: 12px;
+    width: 48px;
+    height: 48px;
+}
+
+.interestCard {
+    color: var(--Dark, #191A26);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    opacity: 0.7;
+    background: var(--Orange-80, #F2703D);
+}

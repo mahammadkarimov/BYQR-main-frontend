@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    border-radius: 8px;
+    background: var(--Schemes-Surface-Container-Lowest, #FFF);
+    box-shadow: 0px 11px 14px 0px rgba(184, 184, 184, 0.12);
+    width: 360px;
+    padding: 12px;
+}
+
+.cardHead {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.checkBg {
+    border-radius: 60px;
+    background: var(--Primary, #FD451C);
+    padding: 10px;
+}
+
+.cardText :nth-child(1) {
+    color: var(--Schemes-Inverse-Surface, #303036);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.cardText :nth-child(2) {
+    color: var(--Schemes-Outline, #767680);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.cardBottom {
+    margin-top: 14px;
+    padding-right: 16px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cardBottom :nth-child(1) {
+    border-radius: 4px;
+    border: 1px solid var(--Primary, #FD451C);
+    background: #FFECE8;
+    color: var(--Primary, #FD451C);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 10px;
+    padding: 10px 12px;
+    transition: 0.3s all ease;
+}
+
+.cardBottom :nth-child(1):hover {
+    background-color: #fff;
+    color: #FD451C;
+}

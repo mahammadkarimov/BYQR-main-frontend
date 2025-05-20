@@ -1,0 +1,19 @@
+.xmarkContainer {
+  padding: 24px 0px 24px 38px;
+}
+@media (max-width: 768px) {
+  .xmarkContainer {
+    padding: 20px 0px 20px 34px;
+  }
+}
+@media (max-width: 640px) {
+  .xmarkContainer {
+    padding: 16px 0px 16px 30px;
+  }
+}
+
+@media (max-width: 493px) {
+  .xmarkContainer {
+    padding: 12px 0px 12px 24px;
+  }
+}

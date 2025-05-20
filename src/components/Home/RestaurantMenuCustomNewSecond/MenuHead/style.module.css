@@ -1,0 +1,29 @@
+.menuHeadArea {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 12px 14px 12px;
+    border-bottom: 0.5px solid #E6E7EB;
+}
+
+.menuHead {
+    color: var(--Dark, #41421A);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.hamburgerMenu {
+    border-radius: 100px;
+    background: #41421A;
+    padding: 8px;
+    color: #FFFFFF;
+}
+
+.leftArr {
+    padding: 8px;
+    border-radius: 100px;
+    background: #41421A;
+}

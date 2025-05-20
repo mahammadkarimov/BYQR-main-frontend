@@ -1,0 +1,41 @@
+.switcherContainer {
+  border-radius: 50%;
+  background: #9a1f1f;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg {
+  border-radius: 50%;
+  background: #1B4B48;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg1 {
+  border-radius: 50%;
+  background: #080621;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.bg2 {
+  border-radius: 50%;
+  background: #717513;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.switcherContainer img {
+  width: 24px;
+  height: 24px;
+}

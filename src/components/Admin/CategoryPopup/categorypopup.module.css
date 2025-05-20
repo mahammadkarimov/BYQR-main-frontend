@@ -1,0 +1,111 @@
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+.paragraph h1 {
+  color: var(--Schemes-On-Surface-Variant, #45464f);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.activePopup {
+  animation: fadeIn 0.3s ease forwards;
+}
+
+.deactivePopup {
+  display: none;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.categoryHead {
+  display: flex;
+  justify-content: center;
+  padding: 24px 24px 0 24px;
+}
+
+.categoryHead h6 {
+  color: #000;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.categoryName input {
+  color: var(--Text, #374254);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: 40px;
+  width: 100%;
+  outline: none !important;
+  border-radius: 5px;
+  border: 1px solid #9da5b1;
+  background: var(--White, #fff);
+  margin-top: 8px;
+}
+
+.categoryName input:focus {
+  border-radius: 5px;
+}
+
+.label {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.addBtn {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--Primary, #fd451c);
+  color: var(--White, #fff);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.categoryArea textarea {
+  margin-top: 12px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid var(--Secondary, #9da5b1);
+  background: var(--White, #fff);
+}

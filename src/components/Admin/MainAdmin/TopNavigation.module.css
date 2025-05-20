@@ -1,0 +1,47 @@
+.topMenuButton_disabled {
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: 0.1s;
+    transition-timing-function: linear;
+    min-width: 70px;
+    opacity: 0.5;
+    border-radius: 4px;
+    text-transform: capitalize;
+}
+
+.topMenuButton_disabled:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+.topMenuButton_selected:hover {
+    background-color: #ff7050;
+}
+
+.topMenuButton_selected {
+    background: var(--Primary, #FD451C);
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    gap: 10px;
+    border-radius: 4px;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.1s;
+    transition-timing-function: linear;
+    min-width: 70px;
+}

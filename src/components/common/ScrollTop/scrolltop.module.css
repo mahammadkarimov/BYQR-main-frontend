@@ -1,0 +1,12 @@
+.topScrollContainer {
+  position: fixed;
+  right: 12px;
+  bottom: 20px;
+  transition: 0.2s;
+  transition-timing-function: linear;
+}
+
+.topScroll {
+  background: #FD451C;
+  border-radius: 9999px;
+}

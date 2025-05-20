@@ -1,0 +1,36 @@
+.slick-dots li.slick-active button:before {
+    color: #191A26 !important;
+    font-size: 8px
+}
+
+.slick-dots {
+    bottom: -20px !important;
+    background: #fff;
+    width: auto;
+    height: 20px;
+    padding: 6px 6px 6px 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: -10px !important;
+    border-radius: 20px;
+}
+
+.slick-dots li {
+    padding: 4px 6px 6px 6px;
+    width: 12px;
+    margin: 0 !important;
+}
+
+.slick-dots li button:before {
+    font-size: 8px
+}
+
+body.rtl {
+    direction: rtl;
+    text-align: right;
+}
+
+body.ltr {
+    direction: ltr;
+    text-align: left;
+}

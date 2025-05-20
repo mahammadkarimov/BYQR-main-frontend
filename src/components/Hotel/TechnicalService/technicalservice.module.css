@@ -1,0 +1,94 @@
+.hotelHeaderBg {
+  border-radius: 0px 0px 16px 16px;
+  background: var(--Primary, #fd451c);
+  padding: 35px 100px 20px 26px;
+}
+
+.hotelBackBtn a {
+  display: flex;
+  align-items: center;
+  color: var(--White, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.servicesContainer {
+  padding: 53px 23px 78px 26px;
+}
+
+.serviceHead h2 {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  margin-bottom: 20px;
+}
+
+.serviceCardContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 45px;
+  margin: 0px 12px 20px;
+  /* align-items: center; */
+  /* align-items: flex-start; */
+}
+
+.serviceCard {
+  border-radius: 0px 0px 10px 10px;
+  background: #fff;
+  width: 100%;
+  height: auto;
+}
+
+.serviceCardImg {
+  display: flex;
+  width: 100%;
+  /* padding: 15px 40px; */
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #5adcb4;
+  height: 90px;
+}
+
+.serviceCardPara {
+  text-align: center;
+  padding: 10px 8px 13px 8px;
+}
+
+.serviceCardPara span {
+  color: var(--Secondary-Color, #080c2f);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.32px;
+}
+
+.serviceIcon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+@media screen and (max-width: 420px) {
+  .serviceCardContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 0px 12px 20px;
+  }
+
+  .servicesContainer {
+    padding: 53px 13px 78px 13px;
+  }
+}

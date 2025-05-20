@@ -1,0 +1,41 @@
+.emailInp {
+  position: relative;
+  margin-top: 24px;
+  border-radius: 30px;
+  border: var(--0, 1px) solid #EDF1F8;
+  padding-left: 54px;
+  height: 72px;
+  outline: #546ffa;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  gap: 16px;
+  justify-content: center;
+  gap: 4px;
+}
+
+.mailIcon {
+  position: absolute;
+  top: 14px;
+  left: 16px;
+}
+
+.emailInp h4{
+    margin-left: 16px;
+    color: var(--promos-time);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.emailInp h3{
+    margin-left: 16px;
+    color: var(--big-title);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+}
+

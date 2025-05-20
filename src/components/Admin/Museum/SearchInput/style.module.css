@@ -1,0 +1,29 @@
+.input input {
+    border-radius: 50px;
+    border: 1px solid #000;
+    background: transparent;
+    color: #1E1E1E !important;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 28px;
+}
+
+.input {
+    position: relative;
+}
+
+.input img {
+    position: absolute;
+    left: 6px;
+    top: 6px;
+}
+
+.input input::placeholder {
+    color: #1E1E1E !important;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}

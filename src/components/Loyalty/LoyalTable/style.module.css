@@ -1,0 +1,310 @@
+/* style.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f6f6f6;
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2d2d2d;
+  padding: 0.5rem 1rem;
+  height: 60px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.menuButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.menuButton:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.hamburger {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  left: 0;
+  transition: all 0.3s;
+}
+
+.hamburger::before {
+  top: -8px;
+}
+
+.hamburger::after {
+  top: 8px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.userProfile {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.userAvatar {
+  border-radius: 50%;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f6f6f6;
+  border-right: 1px solid #e0e0e0;
+  padding: 1rem 0;
+  overflow-y: auto;
+  transition: width 0.3s ease, margin-left 0.3s ease;
+  position: relative;
+  z-index: 10;
+}
+
+.sidebarClosed {
+  width: 0;
+  margin-left: -200px;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+}
+
+.contentExpanded {
+  margin-left: 0;
+}
+
+.sidebarMenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebarHeader {
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.sidebarItem {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.sidebarItem:hover {
+  background-color: #e9e9e9;
+}
+
+.menuItemWithIcon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.subMenuItem {
+  padding: 0.5rem 1rem 0.5rem 2rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #666;
+  transition: background-color 0.2s ease;
+}
+
+.subMenuItem:hover {
+  background-color: #e9e9e9;
+}
+
+.subMenuItem.active {
+  color: #ff3d00;
+  font-weight: bold;
+}
+
+.dropdownArrow {
+  font-size: 0.7rem;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.open {
+  transform: rotate(180deg);
+}
+
+.mainContent {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  transition: all 0.3s ease;
+  max-width: 100%;
+}
+
+.tabMenu {
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 1rem;
+}
+
+.tab {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.activeTab {
+  border-bottom: 2px solid #ff3d00;
+  color: #ff3d00;
+  font-weight: bold;
+}
+
+.searchArea {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.searchInput {
+  flex: 1;
+  max-width: 500px;
+}
+
+.searchInput input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.actionButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.filterButton,
+.actionButton,
+.settingsButton {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.tableContainer {
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 1rem;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.dataTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dataTable th,
+.dataTable td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.dataTable th {
+  background-color: #f9f9f9;
+  font-weight: 500;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+}
+
+.downloadButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paginationInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pageSize {
+  padding: 0.25rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.paginationControls {
+  display: flex;
+  gap: 5px;
+}
+
+.pageButton {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.pageButton:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}

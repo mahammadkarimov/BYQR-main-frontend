@@ -1,0 +1,102 @@
+.modal {
+    position: fixed;
+    right: 20px;
+    top: 100px;
+    background: #fff;
+    border-radius: 4px;
+    height: 80vh;
+    padding: 14px 10px;
+    transition: 0.3s all ease;
+}
+
+.deactive {
+    height: 80vh;
+    transition: 0.3s all ease;
+    top: 100px;
+    position: fixed;
+    right: -400px;
+}
+
+.modalhead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+
+.modalhead h3 {
+    color: var(--Dark, #191A26);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: var(--24, 24px);
+    cursor: default;
+}
+
+.modalhead div {
+    cursor: pointer;
+}
+
+.save {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.save :nth-child(1) {
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid var(--Primary, #FD451C);
+    background: #FFECE8;
+    color: var(--Primary, #FD451C);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 10px;
+    display: flex;
+    width: 111px;
+    height: 36px;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.imgBg {
+    background: #ccc;
+    height: 200px;
+    width: 280px;
+    margin-bottom: 14px;
+    border-radius: 4px;
+    box-shadow: 0px 8px 24px 0px rgba(177, 177, 177, 0.25);
+}
+
+.imgBg input {
+    width: 280px;
+    height: 200px;
+    opacity: 0;
+    position: absolute;
+    top: 50px;
+    cursor: pointer;
+}
+
+.imgBg img {
+    position: relative;
+    top: 70px;
+    left: 116px;
+    width: 60px;
+    height: 60px;
+}
+
+.campaign {
+    top: 0px !important;
+    left: 0px !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+.delete {
+    color: #FD451C;
+    font-size: 14px;
+    font-weight: 500;
+}

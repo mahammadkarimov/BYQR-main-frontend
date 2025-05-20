@@ -1,0 +1,82 @@
+.imageContainer{
+    height: 100vh;
+    width: 40%;
+    position: relative;
+}
+
+.inputContainer{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputContainer h1{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.inputContainer p{
+    font-size: 14px;
+    color: #333;
+}
+
+.inputContainer label{
+    font-size: 16px;
+    font-weight: 700;
+    color: #212529;
+}
+
+.inputContainer form{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputContainer button {
+    background-color: #ff6877;
+    width: 100%;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 0.25rem;
+    outline: none;
+    padding: 0.625rem 1rem;
+    line-height: 1.5;
+    color: #fff;
+    border-color: #ff6877;
+    border-radius: 18px;
+    transition: background-color 0.5s ease-in-out; 
+}
+
+.inputContainer button:hover{
+    background-color: #af4953;
+}
+
+.inputContainer input {
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    font-weight: 600;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .imageContainer {
+      display: none;
+    }
+
+    .inputContainer{
+        width: 100%;
+        margin-top: 60px;
+    }
+  }

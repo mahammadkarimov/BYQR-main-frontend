@@ -1,0 +1,162 @@
+.bottomDetailMain {
+  border-radius: 32px 32px 0 0;
+  background-color: #ffff;
+  width: 100%;
+  height: 66vh;
+  position: absolute;
+  padding: 36px 0 0 0;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+  bottom: -380px;
+  transition: all 0.3s ease;
+}
+
+.opened {
+  border-radius: 32px 32px 0 0;
+  background-color: #ffff;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  padding: 36px 0 0 0;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+  /* bottom: -380px; */
+  transition: all 0.3s ease;
+}
+
+.starPriceContainer {
+  display: flex;
+  width: 175px;
+  margin-top: 16px;
+  margin-bottom: 12px;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.handle {
+  width: 60px;
+  height: 4px;
+  background-color: #e6e9ed;
+  position: absolute;
+  top: 10px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.bigTitle {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26.4px;
+  text-align: left;
+}
+
+.textDetails {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.textDetails h5 {
+  height: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.textDetails p {
+  font-family: 'Plus_Jakarta_Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.productImage {
+  width: 100%;
+  height: 100%;
+  /* Set a fixed width for the container */
+  /* height: auto; */
+  inset: 0px;
+  /* Set a fixed height for the container */
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.closeBtn {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-radius: 10px;
+  background: var(--colors-gray-f-7-f-7-f-7100, #F7F7F7);
+}
+
+@media screen and (max-height: 812px) {
+  .productImage {
+    height: 360px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+  }
+}
+
+@media screen and (max-height: 720px) {
+  .productImage {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+  }
+}
+
+@media screen and (max-height: 640px) {
+  .productImage {
+    height: 260px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .productImage {
+    height: 220px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+  }
+}
+
+@media screen and (max-height: 550px) {
+
+  .productImage {
+    height: 190px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .detail-head {
+    font-size: 20px;
+  }
+
+  .textDetails h5 {
+    height: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .textDetails p {
+    font-family: 'Plus_Jakarta_Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22.4px;
+  }
+}

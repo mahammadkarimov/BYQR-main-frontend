@@ -1,0 +1,100 @@
+.searchInp {
+  width: 168px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  border: 1px solid #000;
+  padding-left: 34px;
+  background: url('../../../assets/icons/Admin/mainAdmin/search.svg') no-repeat
+    scroll 7px 7px;
+}
+
+.searchInp::placeholder {
+  color: #1e1e1e;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+.tbody {
+  display: block !important;
+  height: 400px !important;
+  overflow: auto !important;
+}
+
+.thead,
+.tbody .tr {
+  display: table !important;
+  width: 100% !important;
+  table-layout: fixed !important;
+}
+
+.tr {
+  height: 84px;
+}
+
+.td {
+  text-align: center;
+}
+
+.tdFlex {
+  display: flex;
+  justify-content: center;
+}
+
+.table {
+  width: 90% !important;
+}
+
+.categoryImg {
+  max-width: 104px !important;
+  height: 59px !important;
+  border-radius: 2px;
+  object-fit: cover;
+}
+
+.editBtn {
+  border: 1px solid var(--Light-grey, #e6e7eb);
+  border-radius: 41px;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 14px;
+}
+
+.editBtn img {
+  margin-right: 0;
+}
+
+.addBtnCategory {
+  border-radius: 4px;
+  background: var(--Primary, #fd451c);
+  display: flex;
+  width: 168px;
+  height: 40px;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  color: var(--White, #fff);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  transition: 0.1s;
+  transition-timing-function: linear;
+  font-family: 'Roboto', sans-serif;
+}
+
+.serviceName {
+  color: var(--Dark, #191a26);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: start;
+  font-family: 'Roboto', sans-serif;
+}

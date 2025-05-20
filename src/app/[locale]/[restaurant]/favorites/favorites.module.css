@@ -1,0 +1,8 @@
+.twiceCardsContainer{
+    display: flex;
+    width: 100%;
+    padding: 0px 16px 0px 16px;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}

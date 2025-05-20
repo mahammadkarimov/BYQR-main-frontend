@@ -1,0 +1,68 @@
+.table {
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.table h3 {
+    color: var(--Dark, #191A26);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.table span {
+    color: var(--Base-Light-50, #8A8A8A);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.searchInp {
+    width: 100%;
+    cursor: pointer;
+}
+
+.searchInp input {
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid #DFE1F9;
+    background-size: 20px;
+    padding-left: 40px;
+    color: #BFBDBD;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    outline: red;
+    background: url('../../../../assets/icons/Home/magnifying.svg') no-repeat 10px;
+}
+
+.searchInp input::placeholder {
+    color: #BFBDBD;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+/* .searchInp input:focus::placeholder {
+    color: transparent;
+} */
+
+.searchInp input:focus {
+    border: 1px solid #DFE1F9 !important;
+}
+
+.searchArea {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter {
+    border-radius: 100px;
+    background: #F3F3F3;
+    padding: 8px;
+}

@@ -1,0 +1,23 @@
+.category-area {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.categories-head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.back-btn {
+    margin-right: 16px;
+}
+
+.categories-head :nth-child(2) {
+    color: var(--Dark, #191A26);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+

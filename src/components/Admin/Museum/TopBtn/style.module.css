@@ -1,0 +1,19 @@
+.button {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid #eee;
+    padding: 8px 12px;
+    border-radius: 12px;
+    color: var(--MPrimary-800, #4D3523);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    transition: 0.4s all ease;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}

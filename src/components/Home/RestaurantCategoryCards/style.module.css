@@ -1,0 +1,125 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 400px;
+}
+
+.container img {
+  width: 166px;
+  height: 166px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.container > div {
+  position: relative;
+  width: 100%;
+}
+
+.container > div > span {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  border-radius: 8px;
+  background: #9A1F1F;
+  color: #fff;
+  text-align: center;
+  font-size: 16.154px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18.462px;
+  letter-spacing: -0.323px;
+  padding: 6px 0;
+  width: 100%;
+  max-width: 166px;
+}
+
+.backArr {
+  border-radius: 100px;
+  background: #f3f3f3;
+  display: flex;
+  width: 42px;
+  height: 42px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  margin-bottom: 36px;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 400px;
+}
+
+.container2 img {
+  width: 166px;
+  height: 166px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.container2 > div {
+  position: relative;
+  width: 100%;
+}
+
+.container2 > div > span {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  border-radius: 8px;
+  background: #1B4B48;
+  color: #fff;
+  text-align: center;
+  font-size: 16.154px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18.462px;
+  letter-spacing: -0.323px;
+  padding: 6px 0;
+  width: 100%;
+  max-width: 166px;
+}
+
+
+.container3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 400px;
+}
+
+.container3 img {
+  width: 166px;
+  height: 166px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.container3 > div {
+  position: relative;
+  width: 100%;
+}
+
+.container3 > div > span {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  border-radius: 8px;
+  background: #ED312E;
+  color: #fff;
+  text-align: center;
+  font-size: 16.154px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18.462px;
+  letter-spacing: -0.323px;
+  padding: 6px 0;
+  width: 100%;
+  max-width: 166px;
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.container {
+  width: 100%;
+  transition: 0.2s;
+  transition-timing-function: linear;
+}
+
+.container > h1 {
+  color: rgba(25, 26, 38, 0.7);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.firstTitle > h1 {
+  color: var(--Schemes-On-Primary-Container, #07164b);
+  font-size: 14px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 18px;
+  width: 100%;
+}
+
+.bodyParagraph h4 {
+  color: var(--Schemes-On-Primary-Container, #07164b);
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -20px;
+}
+
+.bodyParagraph h2 {
+  color: #7b7d93;
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+}
+.bodyParagraph h1 {
+  color: var(--Schemes-On-Primary-Container, #07164b);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: normal;
+}

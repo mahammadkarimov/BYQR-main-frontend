@@ -1,0 +1,14 @@
+.mainLayout {
+    width: 100%;
+    min-height: 100vh;
+    background: #FAF9F9;
+    padding: 30px;
+}
+
+@media screen and (max-width: 769px) {
+    .mainLayout {
+        min-height: 100vh;
+        background-color: #F0F0FA;
+        padding: 10px;
+    }
+}

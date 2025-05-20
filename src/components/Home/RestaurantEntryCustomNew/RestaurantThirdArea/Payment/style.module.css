@@ -1,0 +1,22 @@
+.cardContain {
+    border-radius: 6px;
+    border: 1px solid var(--Soft-Grey, #EDF1F8);
+    background: #FCFCFC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    width: 88px;
+    height: 70px;
+    padding: 8px;
+}
+
+.cardContain span {
+    color: var(--Dark, #191A26);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    text-wrap: nowrap;
+}

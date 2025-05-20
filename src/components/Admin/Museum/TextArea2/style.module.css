@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container h2 {
+  color: #000;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 80px;
+}
+
+.container > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.container label {
+  color: var(--Dark, #191a26);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.container input {
+  border-radius: 5px;
+  border: 1px solid var(--Secondary, #9da5b1);
+  background: var(--White, #fff);
+  width: 456px;
+}
+
+.container textarea {
+  border-radius: 5px;
+  border: 1px solid var(--Secondary, #9da5b1);
+  background: var(--White, #fff);
+  height: 124px;
+  width: 456px;
+}
+
+.container button {
+  border-radius: 5px;
+  background: var(--MPrimary-600, #7e563a);
+  padding: 12px 20px;
+  width: 120px;
+  color: var(--Text-Light, #f0f4f7);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: auto;
+}
+
+.addBtn {
+  width: 456px;
+}

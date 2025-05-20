@@ -1,0 +1,52 @@
+.bgWhite {
+    background: #D3C8B0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    overflow-y: auto;
+    max-width: 64rem;
+    margin: 0 auto;
+}
+
+.searchInp {
+    width: 86%;
+    margin-top: 20px;
+}
+
+.leftArrow {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.searchInp input {
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid #DFE1F9;
+    background-size: 20px;
+    padding-left: 40px;
+    color: white;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    outline: #41421A1C;
+    background: url('../../../../assets/icons/Home/magnifying.svg') no-repeat 10px;
+}
+
+.searchInp input::placeholder {
+    color: white;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.searchInp input:focus::placeholder {
+    color: transparent;
+}
+
+.searchInp input:focus {
+    border: 1.5px solid #41421A1C !important;
+}

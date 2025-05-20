@@ -1,0 +1,27 @@
+.opening-animation {
+    animation-name: slideIn;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    margin: 0 auto;
+    position: relative;
+    z-index: 9999;
+}
+
+.close-modal {
+    display: none;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+

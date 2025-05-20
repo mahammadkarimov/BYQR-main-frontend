@@ -1,0 +1,61 @@
+.container {
+  padding: 24px 16px;
+  display: flex;
+  align-items: center;
+}
+
+.container > :nth-child(2) {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-left: -42px;
+}
+
+.container > :nth-child(2) h3 {
+  color: var(--Dark, #191a26);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.leftArr img {
+  filter: brightness(0) saturate(100%) invert(12%) sepia(11%) saturate(1225%)
+    hue-rotate(197deg) brightness(93%) contrast(101%);
+}
+
+.leftArr {
+  border-radius: 100px;
+  background: #f3f3f3;
+  display: flex;
+  width: 42px;
+  height: 42px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.deleteAllProduct {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  padding: 10px 14px;
+}
+
+.deleteAllProduct button {
+  background: #9A1F1F;
+  color: #fff;
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18.462px;
+  letter-spacing: -0.323px;
+}

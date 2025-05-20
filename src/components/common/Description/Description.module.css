@@ -1,0 +1,100 @@
+.descriptionContainer {
+  padding: 0 4%;
+  margin-top: 24px;
+}
+
+.description {
+  gap: 12px;
+}
+
+.descriptionTitle {
+  color: var(--Dark, #191a26);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.descriptionParagraph {
+  color: var(--Grey, #808d9e);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.frame {
+  padding: 12px 0;
+}
+
+.frame p {
+  color: var(--Grey, #808d9e);
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 18px;
+}
+.frame img {
+  height: 36px;
+  width: 36px;
+}
+
+@media (max-width: 768px) {
+  .descriptionTitle {
+    font-size: 22px;
+  }
+
+  .descriptionParagraph {
+    font-size: 18px;
+  }
+  .frame img {
+    height: 32px;
+    width: 32px;
+  }
+  .frame p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  .descriptionTitle {
+    font-size: 20px;
+  }
+
+  .descriptionParagraph {
+    font-size: 16px;
+  }
+  .frame img {
+    height: 28px;
+    width: 28px;
+  }
+  .frame p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 493px) {
+  .description {
+    gap: 12px;
+  }
+
+  .descriptionTitle {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .descriptionParagraph {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .frame img {
+    height: 24px;
+    width: 24px;
+  }
+  .frame p {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,46 @@
+.minuteContainer {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: 96px;
+  height: 32px;
+  padding: 7px 12px;
+  border: 1px solid var(--Soft-Grey, #edf1f8);
+  border-radius: 52px;
+  background: #F5F5F5;
+}
+
+.minutTwiceContainer {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 4px;
+  height: 32px;
+  /* padding: 7px 12px; */
+  /* border: 1px solid var(--Soft-Grey, #EDF1F8); */
+  /* border-radius: 20px; */
+}
+
+.minuteImg img {
+  width: 17px;
+  height: 17px;
+}
+
+.minText :nth-child(1) {
+  color: #A9A9A9;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.minTextTwiceCard :nth-child(1) {
+  color: var(--Dark, #191a26);
+  /* Big Button */
+  /* font-family: Urbanist; */
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  /* 128.571% */
+}

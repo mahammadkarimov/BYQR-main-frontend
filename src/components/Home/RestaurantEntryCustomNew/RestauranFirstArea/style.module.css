@@ -1,0 +1,45 @@
+.langDropdown {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    padding: 8px 6px;
+    border: 1px solid var(--Light-grey, #E6E7EB);
+    background: #717513;
+    margin-bottom: 14px;
+}
+
+.langDropdown span {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.goToMenuBtn {
+    border-radius: 10px;
+    border: 2px solid var(--Primary, #717513);
+    background: var(--Orange-10, #FFFFFF);
+    display: flex;
+    height: var(--48, 48px);
+    padding: 10px var(--32, 32px);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    color: var(--Primary, #717513);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px;
+    width: 320px;
+}
+
+@media screen and (max-width: 375px) {
+    .goToMenuBtn {
+        width: 100%;
+    }
+}

@@ -1,0 +1,177 @@
+.headerContainer {
+  /* position: sticky; */
+  height: 213px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.headerContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.curvedDiv {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 151px;
+  margin-top: -150px;
+  clip-path: ellipse(70% 45% at 50% 130%);
+}
+
+.searchIput {
+  width: 70%;
+  height: 32px;
+  background: rgb(218, 218, 218, 0.71);
+  backdrop-filter: blur(2.5px);
+  border-radius: 16px;
+  position: absolute;
+  top: 0;
+  margin: 44px 26px 14px 14px;
+  left: 0;
+  right: 0;
+  border: none;
+  align-items: center;
+  transition: 0.1s;
+  transition-timing-function: linear;
+  display: flex;
+  cursor: text;
+}
+
+.search input {
+  height: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  overflow: auto;
+  transition: 0.1s;
+  transition-timing-function: linear;
+  position: fixed;
+  left: 28px;
+}
+
+.search input:active {
+  border: none;
+  outline: none;
+}
+
+.search input:focus {
+  outline: none;
+  border: 0px solid black;
+  text-decoration: underline;
+  box-shadow: none;
+}
+
+.searchImg img {
+  width: 20px !important;
+  height: 20px !important;
+  position: fixed;
+  left: 10px;
+  top: 6px;
+}
+
+.search input::placeholder {
+  color: #191a26;
+  font-size: 14px;
+}
+
+.search input:focus::-webkit-input-placeholder {
+  transition: all 0.1s ease-out;
+  opacity: 0;
+}
+
+.search {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  transition: all 0.1s ease-out;
+  top: 0;
+  position: relative;
+  left: 50%;
+}
+
+.logoPlace {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  z-index: 10;
+  position: relative;
+  margin: -90px auto;
+  border-radius: 8px;
+  border: 2.5px solid #ca1515;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  overflow: hidden;
+  background-color: #ca1515;
+}
+
+.logoPlace img {
+  scale: 1;
+}
+
+.profileName {
+  width: 100%;
+  z-index: 1000;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.profileName h1 {
+  color: #191a26;
+  font-weight: 700;
+  font-size: 20px;
+  z-index: 10;
+}
+
+.profileDesc {
+  width: 100%;
+  z-index: 1000;
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.profileDesc h1 {
+  color: #8d93a1;
+  font-weight: 400;
+  font-size: 14px;
+  z-index: 10;
+}
+
+.langDropdown {
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+  z-index: 10000000000 !important;
+}
+
+.headerHeight {
+  height: 280px;
+}
+
+@media screen and (max-height: 600px) {
+  .logoPlace {
+    width: 90px !important;
+    height: 90px !important;
+  }
+
+  .profileName h1 {
+    font-size: 16px;
+  }
+
+  .profileDesc h1 {
+    font-size: 10px;
+  }
+
+  .headerHeight {
+    height: 250px !important;
+  }
+  
+  .searchIput {
+    margin-top: 24px;
+  }
+}

@@ -1,0 +1,68 @@
+.container {
+    padding-left: 14px;
+    background-color: #fff;
+    position: fixed;
+    transition: 0.4s all ease;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    border-radius: 16px 16px 0 0;
+}
+
+.deactive {
+    transition: 0.4s all ease-in-out;
+    position: fixed;
+    bottom: -400px;
+    width: 100%;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.head :nth-child(1) {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    color: var(--Dark, #191A26);
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.overlay {
+    transition: 0.4s all ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.langContainer {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    align-items: center;
+    padding: 12px;
+    color: var(--Dark, #191A26);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.langContainer img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}

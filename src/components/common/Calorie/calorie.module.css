@@ -1,0 +1,28 @@
+.calorieText {
+    color: #A9A9A9;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.calorieBg {
+    border-radius: 52px;
+    background: #F5F5F5;
+    padding: 8px 14px;
+}
+
+.sizeArea {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.sizeArea h3 {
+    color: var(--Dark, #191A26);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+}

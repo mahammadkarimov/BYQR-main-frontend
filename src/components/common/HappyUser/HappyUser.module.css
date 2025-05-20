@@ -1,0 +1,34 @@
+.happyUserContainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.happyUserContainer img {
+  width: 230px;
+}
+
+.happyUserContainer {
+  margin-top: 50px;
+  padding: 0 110px;
+}
+
+@media (max-width: 768px) {
+  .happyUserContainer {
+    padding: 0 90px;
+  }
+
+}
+@media (max-width: 640px) {
+  .happyUserContainer {
+    padding: 0 70px;
+  }
+
+}
+
+@media (max-width: 493px) {
+  .happyUserContainer {
+    padding: 0 40px;
+  }
+
+}

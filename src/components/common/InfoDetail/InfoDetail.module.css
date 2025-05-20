@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.infoDetailContainer {
+  padding: 0px 4%;
+}
+
+.infoDetail {
+  margin-top: 21px;
+  gap: 4px;
+}
+.infoDetail h1 {
+  color: var(--Dark, #191a26);
+  font-size: 24px;
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.infoDetail p {
+  color: #8d93a1;
+  font-size: 20px;
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  display: inline-block !important;
+  width: auto;
+}
+.infoDetail ul {
+  gap: 5.8px;
+}
+
+@media (max-width: 768px) {
+  .infoDetail h1 {
+    font-size: 22px;
+  }
+
+  .infoDetail p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 640px) {
+  .infoDetail h1 {
+    font-size: 20px;
+  }
+
+  .infoDetail p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 493px) {
+  .infoDetail h1 {
+    font-size: 18px;
+  }
+  .infoDetail {
+    margin-top: 21px;
+    gap: 0px;
+  }
+  .infoDetail p {
+    font-size: 14px;
+  }
+  .infoDetail ul {
+    margin-top: 4px;
+  }
+}

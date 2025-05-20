@@ -1,0 +1,87 @@
+.mobileAppCardContainer {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 11px 14px 0px rgba(184, 184, 184, 0.12);
+    width: 360px;
+    padding: 12px;
+    gap: 14px;
+}
+
+.mobileAppCardContainer> :nth-child(1) {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.mobileAppCardContainer> :nth-child(1)> :nth-child(1) {
+    border-radius: 60px;
+    background-color: var(--Primary, #FD451C);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.mobileAppCardContainer> :nth-child(1)> :nth-child(2) h3 {
+    color: var(--Schemes-Inverse-Surface, #303036);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 4px;
+}
+
+.mobileAppCardContainer> :nth-child(1)> :nth-child(2) p {
+    color: var(--Schemes-Outline, #767680);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.mobileAppCardContainer> :nth-child(1)> :nth-child(2)> :nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.mobileAppCardContainer> :nth-child(1)> :nth-child(2)> :nth-child(2)> :nth-child(1) {
+    border-radius: 4px;
+    border: 1px solid var(--Primary, #FD451C);
+    display: flex;
+    width: 111px;
+    height: 36px;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--Primary, #FD451C);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 10px;
+    cursor: pointer;
+}
+
+.mobileAppCardContainer> :nth-child(1)> :nth-child(2)> :nth-child(2)> :nth-child(2) {
+    border-radius: 4px;
+    border: 1px solid var(--Primary, #FD451C);
+    background: #FFECE8;
+    display: flex;
+    width: 111px;
+    height: 36px;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--Primary, #FD451C);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 10px;
+    cursor: pointer;
+}
